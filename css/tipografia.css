@@ -15,12 +15,31 @@
     font-family: Kanit;
 }
 
+button{
+    font-family: KanitBold;
+}
+
+.negrita{
+    font-family: KanitBold;
+}
+
+.blanco{
+    color: var(--blanco);
+}
+
 h1{
     font-family: KanitBold;
     font-size: 30px;
+    margin: 0;
 }
 
 h2{
     font-family: KanitBold;
     font-size: 25px;
+    margin: 0;
+}
+
+p{
+    font-family: Kanit;
+    font-size: 16px;
 }
