@@ -1,4 +1,19 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/* ICONOS */
+.icono{
+    height: 45px;
+}
 
+/* HEADER */
+/* MenuHorizontal */
+.menuHori{
+    display: none;
+}
+
+/* MenuMovil */
+
+.logoMovil{
+    height: 60px;
+}

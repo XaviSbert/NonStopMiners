@@ -1,2 +1,13 @@
 /* CSS COLOR */
 /* **************************************************************** */
+
+:root{
+    --azulP: #0D6EFD;
+    --azulS: #1EA3FC;
+    --blanco: #EAEAEA;
+    --gris1: #3A3A3A;
+    --gris2: #666666;
+    --gris3: #949494;
+    --online: #58D68D;
+    --offline: #EC7063;
+}

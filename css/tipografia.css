@@ -1,6 +1,16 @@
 /* CSS TYPOGRAFÍA */
 /* **************************************************************** */
 
+@font-face{
+    font-family: 'Kanit';
+    src: url(../font/kanit-regular.otf)
+}
+
 @font-face {
-    
+    font-family: 'KanitBold';
+    src: url(../font/kanit-bold.otf);
+}
+
+p{
+    font-family: Kanit;
 }
