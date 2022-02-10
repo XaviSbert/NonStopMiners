@@ -14,20 +14,29 @@
       <nav class="menu menuHori">
         <ul>
           <li class="icono iconoMenuMineros vip">
-            <img src="./img/GPU.svg" alt="Icono de una gpu" />
-            <p>MINEROS</p>
+            <a href="mineros.html">
+              <img src="./img/GPU.svg" alt="Icono de una gpu" />
+              <p class="negrita">MINEROS</p>
+            </a>
           </li>
+          <li class="vacio"></li>
           <li class="icono logoHori">
-            <img src="./img/LogotipoHorizontallogo.svg" alt="Logo" />
+            <a href="index.html">
+              <img src="./img/LogotipoHorizontallogo.svg" alt="Logo" />
+            </a>
           </li>
           <li class="icono iconoMenuCont">
-            <img src="./img/Contact.svg" alt="Icono de contactar" />
-            <p>Contactar</p>
+            <a href="contactar.html">
+              <img src="./img/Contact.svg" alt="Icono de contactar" />
+              <p class="negrita">Contactar</p>
+            </a>
           </li>
           <li class="icono iconoMenuUsr">
-            <img src="./img/Usr.svg" alt="Icono de usuario" />
-            <p>Login</p>
-            <p class="vip">Cuenta</p>
+            <a href="login.html">
+              <img src="./img/Usr.svg" alt="Icono de usuario" />
+              <p class="negrita">Login</p>
+              <!-- <p class="vip negrita">Cuenta</p> -->
+            </a>
           </li>
         </ul>
       </nav>
@@ -78,11 +87,13 @@
         <p class="blanco">Controla que tus mineros estén minando</p>
         <section class="sectionBotonesPrincipal">
           <a href="login.html"><button class="botonAzul">Login</button></a>
-          <a href=""><button class="botonBlanco">+info</button></a>
+          <a class="masInfo" href="#se"
+            ><button class="botonBlanco">+info</button></a
+          >
         </section>
       </section>
       <!-- Section que contiene la explicación del servicio -->
-      <section class="sectionExplicacion blanco">
+      <section id="se" class="sectionExplicacion blanco">
         <h2 class="blanco">Controla su actividad</h2>
         <p class="blanco">
           Añade todos tus mineros de una manera facil para mejorar su

@@ -19,9 +19,9 @@ button {
   background-color: var(--azulP);
 }
 
-.botonBlanco{
-    color: var(--gris1);
-    background-color: var(--blanco);
+.botonBlanco {
+  color: var(--gris1);
+  background-color: var(--blanco);
 }
 
 /* VIP */
@@ -33,11 +33,12 @@ button {
 /* Menu */
 .menu {
   background-color: var(--blanco);
+  height: 3.75rem;
 }
 /* MenuHorizontal */
 .menuHori {
-  height: 3.75rem;
-  width: 100vw;
+  height: 7.9375rem;
+  width: 100%;
   background-color: var(--blanco);
   display: none;
 }
@@ -48,6 +49,14 @@ button {
   align-items: center;
 }
 
+.menuHori ul li {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 /* MenuMovil */
 
 .menuMovil {
@@ -86,7 +95,7 @@ button {
   top: 3.75rem;
   transition-duration: 0.5s;
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
 .menuDesplegable ul {
@@ -117,8 +126,8 @@ button {
 
 /* Section Principal */
 .sectionPrincipal {
-  height: 49rem;
-  width: 100vw;
+  height: 81vh;
+  width: 100%;
   background-color: var(--azulS);
   display: flex;
   flex-direction: column;
@@ -128,18 +137,18 @@ button {
 
 /* Section que contiene la explicación */
 
-.sectionExplicacion{
-    height: 49rem;
-    width: 100vw;
-    background-color: var(--azulP);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sectionExplicacion {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--azulP);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.sectionExplicacion p{
-    width: 21.875rem;
-    text-align: center;
-    padding: 0;
+.sectionExplicacion p {
+  width: 21.875rem;
+  text-align: center;
+  padding: 0;
 }
