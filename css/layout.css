@@ -2,18 +2,81 @@
 /* **************************************************************** */
 
 /* ICONOS */
-.icono{
-    height: 45px;
+.icono {
+  width: 45px;
+}
+
+/* VIP */
+.vip {
+  /* display: none; */
 }
 
 /* HEADER */
+/* Menu */
+.menu {
+  background-color: var(--blanco);
+}
 /* MenuHorizontal */
-.menuHori{
-    display: none;
+.menuHori {
+  height: 3.75rem;
+  width: 100vw;
+  background-color: var(--blanco);
+  display: none;
+}
+
+.menuHori ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* MenuMovil */
 
-.logoMovil{
-    height: 60px;
+.menuMovil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.menuMovil * {
+  width: 33%;
+}
+
+.menuHamb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoMovil {
+  height: 60px;
+}
+
+/* Menu Desplegable */
+.menuDesplegable {
+  position: absolute;
+  left: -1000px;
+  height: 49rem;
+  width: 100%;
+  background-color: var(--azulP);
+  top: 3.75rem;
+  transition-duration: 0.5s;
+}
+
+.activadorMenuDesplegable:checked ~ .menuDesplegable {
+  left: 0;
+  z-index: 999;
+  transition-duration: 0.5s;
+}
+
+.activadorMenuDesplegable{
+    display: none;
+}
+
+/*  */

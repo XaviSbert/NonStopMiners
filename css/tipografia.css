@@ -11,6 +11,16 @@
     src: url(../font/kanit-bold.otf);
 }
 
-p{
+*{
     font-family: Kanit;
+}
+
+h1{
+    font-family: KanitBold;
+    font-size: 30px;
+}
+
+h2{
+    font-family: KanitBold;
+    font-size: 25px;
 }
