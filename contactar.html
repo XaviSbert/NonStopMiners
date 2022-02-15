@@ -48,7 +48,8 @@
               class="icono iconoHamb"
               src="./img/Hamb.svg"
               alt="icon de Hamburguesa"
-          /></label>
+            />
+          </label>
           <input id="click" type="checkbox" class="activadorMenuDesplegable" />
 
           <!-- Menu escondido movil -->
@@ -70,37 +71,48 @@
           </section>
         </section>
         <section class="sectionLogo">
-          <img
-            class="logoMovil"
-            src="./img/LogotipoHorizontallogo.svg"
-            alt="logo"
-          />
+          <a href="index.html">
+            <img
+              class="logoMovil"
+              src="./img/LogotipoHorizontallogo.svg"
+              alt="logo"
+            />
+          </a>
         </section>
         <section class="vacio"></section>
       </nav>
     </header>
     <!-- Main -->
-    <main>
+    <main class="fondoGris1 mainContactar">
       <h2>Contactar</h2>
     </main>
     <!-- Footer -->
     <footer>
-      <!-- MAPA -->
-      <ul>
-        <li class="negrita">Páginas</li>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="contactar.html">Contactar</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="registro.html">Registro</a></li>
-      </ul>
-      <!-- rrss -->
-      <img src="./img/Twt.svg" alt="Logo Twitter" />
-      <img src="./img/Ins.svg" alt="Logo Instagram" />
-      <!-- Avisos + copy -->
+      <!-- Primera parte del footer -->
+      <section class="pFooter">
+        <!-- MAPA -->
+        <ul>
+          <li class="negrita">Páginas</li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contactar.html">Contactar</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="registro.html">Registro</a></li>
+        </ul>
+        <div></div>
+        <!-- rrss -->
+        <section class="rrssFooter">
+          <img src="./img/Twt.svg" alt="Logo Twitter" />
+          <img src="./img/Ins.svg" alt="Logo Instagram" />
+        </section>
+      </section>
       <hr />
-      <a href="">Avisos Legales</a>
-      <p>-</p>
-      <a href="">Copyright</a>
+      <!-- Segunda parte del footer -->
+      <!-- Avisos + copy -->
+      <section class="sFooter">
+        <a href="">Avisos Legales</a>
+        <span>-</span>
+        <a href="">Copyright</a>
+      </section>
     </footer>
   </body>
 </html>

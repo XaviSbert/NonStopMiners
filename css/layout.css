@@ -8,14 +8,14 @@
 
 /* ICONOS */
 .icono {
-  width: 45px;
+  width: 2.8125rem;
 }
 
 /* Botones */
 button {
-  height: 3.125rem;
-  border-radius: 20px;
-  font-size: 25px;
+  height: 50px;
+  border-radius: 1.25rem;
+  font-size: 1.5625rem;
   border: none;
 }
 
@@ -38,20 +38,23 @@ button {
 /* Menu */
 .menu {
   background-color: var(--blanco);
-  height: 3.75rem;
+  height: 60px;
 }
 /* MenuHorizontal */
 .menuHori {
-  height: 7.9375rem;
+  height: 127px;
   width: 100%;
   background-color: var(--blanco);
   display: none;
+
 }
 
 .menuHori ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .menuHori ul li {
@@ -80,6 +83,13 @@ button {
   align-items: center;
 }
 
+.menuHamb label{
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+}
+
+
 .sectionLogo {
   display: flex;
   justify-content: center;
@@ -87,7 +97,7 @@ button {
 }
 
 .logoMovil {
-  height: 60px;
+  width: 100%;
 }
 
 /* Menu Desplegable */
@@ -108,18 +118,18 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-.menuDesplegable > ul > li > a {
+.menuDesplegable > ul > li > a{
   color: var(--blanco);
   font-family: KanitBold;
-  font-size: 55px;
-  /* box-shadow: 0px 4px 4px 0px #00000040 inset; */
+  font-size: 3.4375rem;
 }
 
-.activadorMenuDesplegable:checked ~ .menuDesplegable {
+/* Función al clickar en el icono de menu */
+.activadorMenuDesplegable:checked ~ .menuDesplegable { 
   left: 0;
-  z-index: 999;
   transition-duration: 0.5s;
 }
 
@@ -153,7 +163,7 @@ button {
 }
 
 .sectionExplicacion p {
-  width: 21.875rem;
+  width: 350px;
   text-align: center;
   padding: 0;
 }
@@ -179,13 +189,13 @@ button {
 
 .formLogin p{
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: .9375rem 0 0 0;
   color: var(--azulP);
 }
 
 .formLogin a{
   color: var(--blanco);
-  padding: 10px;
+  padding: .625rem;
 }
 
 .formLogin hr{
@@ -194,7 +204,7 @@ button {
 }
 
 .formLogin button{
-  margin: 10px;
+  margin: .625rem;
 }
 
 /* MAIN REGISTRO */
@@ -218,13 +228,13 @@ button {
 
 .formRegistro p{
   margin: 0;
-  padding: 15px 0 0 0;
+  padding: .9375rem 0 0 0;
   color: var(--azulP);
 }
 
 .formRegistro a{
   color: var(--blanco);
-  padding: 10px;
+  padding: .625rem;
 }
 
 .formRegistro hr{
@@ -233,7 +243,7 @@ button {
 }
 
 .formRegistro button{
-  margin: 10px;
+  margin: .625rem;
 }
 
 /* MAIN MINEROS */
@@ -250,27 +260,27 @@ button {
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 120px 120px 120px 120px 120px 120px;
+  grid-template-rows: 7.5rem 7.5rem 7.5rem 7.5rem 7.5rem 7.5rem;
 }
 
 .minero{
   background-color: var(--gris2);
-  padding: 10px;
+  padding: .625rem;
   border-radius: 20px;
-  width: 150px;
-  height: 80px;
-  box-shadow: 0px 4px 4px 0px #00000040;
+  width: 90%;
+  height: 6.25rem;
+  box-shadow: 0rem .25rem .25rem 0rem #00000040;
   display: grid;
-  grid-template-columns: 110px 20px;
-  grid-template-rows: 20px 60px;
+  grid-template-columns: 1fr 1.25rem;
+  grid-template-rows: 1.25rem 3.75rem;
   align-self: center;
   justify-self: center;
 }
 
 .estado{
-  height: 20px;
-  width: 20px;
-  border-radius: 180px;
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: 11.25rem;
 }
 
 .nombreMinero{
@@ -288,6 +298,14 @@ button {
 .offline{
   background-color: var(--offline);
   color: var(--gris3);
+}
+
+/* CONTACTAR */
+
+.mainContactar{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
 
@@ -328,8 +346,8 @@ footer hr{
 }
 
 .rrssFooter img{
-  height: 50px;
-  padding: 2px;
+  height: 3.125rem;
+  padding: .125rem;
 }
 
 .sFooter{
@@ -340,7 +358,7 @@ footer hr{
 }
 
 .sFooter span{
-  padding: 5px;
+  padding: .3125rem;
 }
 
 
