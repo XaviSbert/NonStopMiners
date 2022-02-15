@@ -193,6 +193,13 @@ button {
   width: 100%;
 }
 
+.formLogin input{
+  background-color: var(--blanco);
+  border: none;
+  padding: 10px 5px;
+  margin: 5px;
+}
+
 .formLogin p{
   margin: 0;
   padding: .9375rem 0 0 0;
@@ -230,6 +237,13 @@ button {
   justify-content: flex-start;
   height: 100%;
   width: 100%;
+}
+
+.formRegistro input{
+  background-color: var(--blanco);
+  border: none;
+  padding: 10px 5px;
+  margin: 5px;
 }
 
 .formRegistro p{
