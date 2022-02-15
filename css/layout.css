@@ -131,6 +131,7 @@ button {
   color: var(--blanco);
   font-family: KanitBold;
   font-size: 3.4375rem;
+  text-shadow: 2px 2px 3px var(--gris1);
 }
 
 /* Función al clickar en el icono de menu */
