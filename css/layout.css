@@ -113,10 +113,10 @@ button {
 .menuDesplegable {
   position: absolute;
   left: -1000px;
-  height: 49rem;
+  height: calc(640px - 73.39px);
   width: 100%;
   background-color: var(--azulP);
-  top: 3.75rem;
+  top: 4.5869rem;
   transition-duration: 0.5s;
   display: flex;
   align-items: center;
@@ -196,6 +196,7 @@ button {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .formLogin{
@@ -203,8 +204,8 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .formLogin input{
@@ -242,6 +243,7 @@ button {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .formRegistro{
@@ -249,8 +251,8 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .formRegistro input{
@@ -287,10 +289,11 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .mineros{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -340,6 +343,7 @@ button {
   display: flex;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
 }
 
 
