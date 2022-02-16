@@ -18,6 +18,10 @@
     .menuMovil{
         display: none;
     }
+
+    .sectionPrincipal{
+        background-image: url(../img/tablet/GpuAzul.webp);
+    }
 }
 
 /* Horizontal */
@@ -41,5 +45,10 @@
 
     .menuMovil{
         display: none;
+    }
+
+
+    .sectionPrincipal{
+        background-image: url(../img/escritorio/GpuAzul.webp);
     }
 }

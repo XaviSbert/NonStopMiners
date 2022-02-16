@@ -8,7 +8,7 @@
 
 /* ICONOS */
 .icono {
-  width: 2.8125rem;
+ height: 60px;
 }
 
 /* Botones */
@@ -38,32 +38,41 @@ button {
 /* Menu */
 .menu {
   background-color: var(--blanco);
-  height: 60px;
 }
 /* MenuHorizontal */
 .menuHori {
   height: 127px;
-  width: 100%;
+  width: 100vw;
   background-color: var(--blanco);
   display: none;
-
 }
 
 .menuHori ul {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 0;
   padding: 0;
+  height: 127px;
 }
 
-.menuHori ul li {
+.menuHori ul li{
   width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuHori ul li a{
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.logoMenuHori{
+  height: 120px;
 }
 /* MenuMovil */
 
@@ -149,19 +158,23 @@ button {
 /* Section Principal */
 .sectionPrincipal {
   height: 81vh;
-  width: 100%;
+  width: 100vw;
   background-color: var(--azulS);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/movil/GpuAzul.webp) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Section que contiene la explicación */
 
 .sectionExplicacion {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: var(--azulP);
   display: flex;
   flex-direction: column;
@@ -170,7 +183,7 @@ button {
 }
 
 .sectionExplicacion p {
-  width: 350px;
+  width: 21.875rem;
   text-align: center;
   padding: 0;
 }
@@ -334,10 +347,10 @@ button {
 
 footer{
   display: flex;
+  width: 100vw;
   flex-direction: column;
   align-items: center;
   background-color: var(--gris3);
-  /* justify-content: center; */
 }
 
 footer *{
@@ -352,7 +365,7 @@ footer hr{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .pFooter + div{
@@ -375,7 +388,7 @@ footer hr{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
 }
 
 .sFooter span{
