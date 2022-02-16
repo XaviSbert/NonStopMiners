@@ -39,12 +39,11 @@ button {
 /* Menu */
 .menu {
   background-color: var(--blanco);
+  width: 100vw;
 }
 /* MenuHorizontal */
 .menuHori {
   height: 127px;
-  width: 100vw;
-  background-color: var(--blanco);
   display: none;
 }
 
@@ -116,7 +115,7 @@ button {
   position: absolute;
   left: -1000px;
   height: calc(100vh - 80px);
-  width: 100%;
+  width: 100vw;
   background-color: var(--azulP);
   top: 5rem;
   transition-duration: 0.5s;
@@ -124,7 +123,7 @@ button {
   align-items: center;
 }
 
-.menuDesplegable *{
+.menuDesplegable li{
   width: auto;
 }
 
