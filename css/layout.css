@@ -20,6 +20,11 @@ button {
   cursor: pointer;
 }
 
+button:hover{
+  border-radius: 0;
+  transition-duration: 0.5s;
+}
+
 .botonAzul {
   color: var(--blanco);
   background-color: var(--azulP);
