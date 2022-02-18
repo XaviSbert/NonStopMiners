@@ -11,7 +11,6 @@ btnValidar.addEventListener('click', function(event){
     validarPass();
     validarPassRepe();
     validarEmail();
-    window.location.href = "login.html";
 });
 
 // Pinta los errores en la p dentro del contenedor de errores
