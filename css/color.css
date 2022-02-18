@@ -10,4 +10,13 @@
     --gris3: #949494;
     --online: #58D68D;
     --offline: #EC7063;
+    --colorErrores: #CB4335;
+}
+
+.border-red{
+    border: 1px solid red;
+}
+
+.contenedorFallos{
+    color: var(--colorErrores);
 }

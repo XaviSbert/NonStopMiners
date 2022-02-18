@@ -405,4 +405,18 @@ footer hr{
   padding: .3125rem;
 }
 
+.contenedorFallos{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
 
+.fallosForm{
+  padding: 0.8rem;
+  text-align: center;
+  margin: 0;
+}
